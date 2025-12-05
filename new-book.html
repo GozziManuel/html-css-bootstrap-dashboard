@@ -71,33 +71,91 @@
     </nav>
 
     <div class="container-md w-100 gap-4">
+      <!-- TITOLO -->
+      <form action="https://learning.tizianonicolai.com/request-catcher/  ">
         <div class="row-cols-1 my-4">
-        <h1 class="col-12">Nuovo Libro</h1>
-      </div>
-      <div class="row">
-        <div class="mb-3 col-6 h5">
+          <h1 class="col-12">Nuovo Libro</h1>
+        </div>
+        <!-- NOME AUTORE -->
+        <div class="row">
+          <div class="mb-3 col-6 h5">
+            <label for="exampleFormControlInput1" class="form-label"
+              >Nome Autore</label
+            >
+            <input
+              type="email"
+              class="form-control"
+              id="exampleFormControlInput102"
+              placeholder="Inerisci il nome dell'autore"
+            />
+          </div>
+          <div class="mb-3 col-6 h5">
+            <label for="exampleFormControlInput1" class="form-label"
+              >Cognome Autore</label
+            >
+            <input
+              type="email"
+              class="form-control"
+              id="exampleFormControlInput1"
+              placeholder="Inserisci il cognome dell'autore"
+            />
+          </div>
+        </div>
+        <!-- LIBRO TIT -->
+        <div class="mb-3 col-12 h5">
           <label for="exampleFormControlInput1" class="form-label"
-            >Nome Autore</label
+            >Titolo</label
           >
           <input
             type="email"
             class="form-control"
-            id="exampleFormControlInput1"
-            placeholder="Inerisci il nome dell'autore"
+            id="exampleFormControlInput12"
+            placeholder="Inserisci il titolo del libro"
           />
+          <p class="text-secondary h6 mt-1 opacity-75">
+            Titolo versione italiana
+          </p>
         </div>
-        <div class="mb-3 col-6 h5">
-          <label for="exampleFormControlInput1" class="form-label"
-            >Cognome Autore</label
-          >
-          <input
-            type="email"
-            class="form-control"
-            id="exampleFormControlInput1"
-            placeholder="Inserisci il cognome dell'autore"
-          />
+        <!-- GENERE -->
+        <div class="row">
+          <div class="col-md-4">
+            <h5>Genere</h5>
+            <div class="input-group mb-3 col-md-4">
+              <select class="form-select col-md-4" id="inputGroupSelect02">
+                <option selected>Scegli il genere</option>
+                <option value="1">Horror</option>
+                <option value="2">Fantasy</option>
+                <option value="3">Thriller</option>
+              </select>
+            </div>
+          </div>
+          <!-- PUBBLICAZ -->
+
+          <div class="mb-3 col-sm-12 col-md-4 h5">
+            <label for="exampleFormControlInput1" class="form-label"
+              >Anno di Pubblicazione</label
+            >
+            <input
+              type="email"
+              class="form-control"
+              id="exampleFormControlInput2"
+              placeholder="Inserisci l'anno"
+            />
+          </div>
+          <div class="mb-3 col-sm-12 col-md-4 h5">
+            <label for="exampleFormControlInput3" class="form-label"
+              >ISBN#</label
+            >
+            <input
+              type="email"
+              class="form-control"
+              id="exampleFormControlInput3"
+              placeholder="Inserisci il codice ISBN#"
+            />
+          </div>
         </div>
-    
+        <hr class="my-4" />
+      </form>
     </div>
   </body>
 </html>
