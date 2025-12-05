@@ -58,10 +58,11 @@
           </ul>
           <form class="d-flex" role="search">
             <input
-              class="form-control me-2 text-bg-light"
+              class="form-control me-2"
               type="search"
               placeholder="Cerca... "
               aria-label="text"
+              data-bs-theme="light"
             />
             <button class="btn btn-outline-light" type="submit">Cerca</button>
           </form>
@@ -73,9 +74,13 @@
       <div class="d-flex flex-column flex-grow-1">
         <div class="d-flex">
           <h1 class="py-3">Catalogo Libri</h1>
-          <button class="btn btn-primary m-auto me-0" type="submit">
+          <a
+            href="./new-book.html"
+            class="btn btn-primary m-auto me-0"
+            type="submit"
+          >
             Aggiungi Libro
-          </button>
+          </a>
         </div>
 
         <table class="table table-striped">
